@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+}
+.main__half{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main__left{
+    width:624px;
+    height: 896px;
+    margin: 64px;
+    border: 1px solid #EAEAEA;
+    border-radius: 64px;
+    position: relative;
+    padding: 190px 0 196px ;
+}
+.main__description{
+    text-align: center;
+    margin: 64px auto;
+    height: 100px;
+    max-width: 336px;
+}
+.main__para{
+color: #6D6D78;
+margin-top: 16px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.main__title{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.blue__underline{
+    position: relative;
+}
+.blue__underline:after{
+    content: "";
+    position:absolute;
+    bottom: -3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #52C3FF;
+}
+.main__arrows{
+    min-width: 112px ;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 32px;
+    left:50%;
+    transform:translatex(-50%);
+}
+.main__arrow{
+    width: 48px;
+    height: 48px;
+    border: 1px solid #EAEAEA;
+    border-radius: 100%;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+   position: relative;
+}
+.main__arrow--icon--right{
+    rotate: 180deg;
+}
+.main__arrow--icon{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main__slider--oval{
+    width: 16px;
+    height: 6px;
+    border-radius: 4px;
+    background-color: #52C3FF;
+}
+.main__slider--cir{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color:#EAEAEA;
+}
+.main__slider{
+    width:52px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__right{
+    width:624px;
+    height: 896px;
+    margin: 64px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.main__right--header{
+    display: flex;   
+}
+.main__right--header--title{
+    color:#172239;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.main__right--header--para{
+    color: #6D6D78;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 336px;
+    }
+.main__arrow--wrap{
+    margin: 64px 96px 0 0;
+}
+.main__right--description{
+    margin:0 0 64px;
+}
+.main__right__arrow--wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main__right--card{
+    width: 624px;
+    height: 240px;
+    padding: 32px 0;
+    margin-bottom: 32px;
+    border: 1px solid #EAEAEA;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__right--card:hover{
+    outline: 2px solid #52C3FF;
+}
+.main__right--icon--container{
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background: #52C3FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__description{
+    text-align: center;
+    max-width: 326px;
+    max-height: 88px;
+    margin-top: 24px;
+}
+.main__right--title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+.main__right--para{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+     margin: 0;
+}
+.main__right--icon--color{
+    background-color: #FFDFD6;
+}
+.right__btn__slider--wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 118px;
+}
+.main__right__btn{
+    width: 100%;
+    margin-top: 48px;
+    height: 64px;
+    padding-right: 24px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #172239;
+    background-color: #FFDFD6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.btn__text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
